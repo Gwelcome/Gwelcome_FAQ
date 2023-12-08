@@ -3,7 +3,7 @@ Gwelcome_FAQ는 자주 묻는 질문(FAQ)에 대한 답변을 찾기 위한 모�
 ## 개요
 사용자로부터 policy_id와 question을 입력받아 해당정책 내에서 입력받은 질문과 유사한 질문 3개를 도출하여 사용자에게 반환합니다. 이후 3개의 질문 중 사용자가 선택한 질문에 대해 FAQ데이터를 바탕으로 답(answer)을 반환합니다.
 # 서버 실행
-''' uvicorn main:app --reload '''
+'''python uvicorn main:app --reload '''
 
 # API 엔드포인트
 ## /top3 : 사용자 질문에 대해 가장 유사한 3개의 질문을 반환합니다.
