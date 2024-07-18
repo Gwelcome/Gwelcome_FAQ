@@ -1,7 +1,11 @@
-# Gwelcome_FAQ
+$# Gwelcome_FAQ
 Gwelcome_FAQ는 자주 묻는 질문(FAQ)에 대한 답변을 찾기 위한 모듈입니다.
 ## 개요
 사용자로부터 policy_id와 question을 입력받아 해당정책 내에서 입력받은 질문과 유사한 질문 3개를 도출하여 사용자에게 반환합니다. 이후 3개의 질문 중 사용자가 선택한 질문에 대해 FAQ데이터를 바탕으로 답(answer)을 반환합니다.
+<img width="694" alt="image" src="https://github.com/user-attachments/assets/27976a7f-6013-4424-9dd4-1df362aeca2c">
+<img width="698" alt="image" src="https://github.com/user-attachments/assets/b114de11-3d90-4e44-8cf3-95355fd737b6">
+
+
 # 서버 실행
 ```uvicorn main:app --reload ```
 
